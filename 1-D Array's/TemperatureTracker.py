@@ -10,3 +10,4 @@ while temperatures <-20 or temperatures > 50:
     print (" These are invalid temperatures ")
     temperatures = int(input("Please re-enter valid temperatures"))
 for index in range (0,5):
+    383
