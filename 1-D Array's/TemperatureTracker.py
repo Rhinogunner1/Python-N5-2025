@@ -5,9 +5,12 @@
 #Your program should use input validation, a 1-D array and fixed loops.
 
 temperatures = [] 
-input("Enter 5 daily temperatures between - 20 and +50 C")
-while temperatures <-20 or temperatures > 50:
-    print (" These are invalid temperatures ")
-    temperatures = int(input("Please re-enter valid temperatures"))
-for index in range (0,5):
-    383
+for index in range (0,7):
+    temp = input("Enter a daily temperatures between - 20 and +50 C:")
+    while temperatures <-20 or temperatures > 50:
+            print (" These are invalid temperatures ")
+            temp = int(input("Please re-enter valid temperatures"))
+            temperatures.append(temp)
+
+    
+    
